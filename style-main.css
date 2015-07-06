@@ -38,7 +38,7 @@
 .page-section h2 {
 	font-size: 3em;
 	font-weight: 900;
-	color: #fff;
+	color: #553344;
 	margin: 0 0 30px;
 	text-shadow: 2px 2px 2px #000;
 }
@@ -51,10 +51,10 @@
 	font-size: 1.8em;
 }
 .page-section p.caption {
-	color: #fff;
+	color: #000;
 	padding: 20px;
-	background: url(images/trans_black_25.png);
-	text-shadow: 1px 1px 1px #000;
+	/*background: url(images/trans_black_25.png);*/
+	/*text-shadow: 1px 1px 1px #000;*/
 }
 .page-section.intro {
 	min-height: 600px;
@@ -105,10 +105,34 @@
 	color: #fff;
 	text-decoration: none;
 }
+.twitter-sidebar {
+	margin-top: 50px;
+	position: absolute;
+}
+#twitter-inside.stick {
+	position: fixed;
+    top: 0;
+    z-index: 10000;
+    margin-top: 70px;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:active {
+
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #FFCCBB;
+}
+a.nav-active {
+    color: #ffffff;
+    font-weight: bold;
+}
 #faceshot {
 	margin-top: 60px;
 }
 hr {border-color: #ddd;}
+
 
 @media (min-width: 768px) {
 	.header .navbar-brand {
