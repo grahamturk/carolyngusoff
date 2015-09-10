@@ -8,23 +8,32 @@
 <html>
 <head>
 <title>Carolyn Gusoff</title>
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 <!-- Custom CSS -->
-<link rel="stylesheet" href="style-main.css">
+<link rel="stylesheet" href="css/style-main.css">
 
 <!-- Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-<!-- jQuery -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 <!-- Custom JavaScript -->
 <script src="script-main.js"></script>
 
 </head>
 <body>
+	<!--Facebook Javascript SDK-->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<div class="header">
 		<div class="container">
 			<nav class="navbar navbar-inverse" role="navigation">
@@ -60,7 +69,7 @@
 			<div class="row">
 				<div class="col-lg-8">
 					<h1>Carolyn Gusoff<br/><span>Journalist &amp; Author</span></h1>
-					<p class="lead">Carolyn Gusoff is an Emmy Award winning broadcast  journalist and author. Her book, Buried Memories: Katie Beers' Story, was a 2013 New York Times Best Seller.  It has also topped the best seller lists in the UK published by Virgin Books/Random House entitled Help Me.</h4>
+					<p class="lead">Carolyn Gusoff is an Emmy Award winning broadcast  journalist and author. Her book, <i>Buried Memories: Katie Beers' Story</i>, was a 2013 New York Times Best Seller. Carolyn has covered some of the most high profile news stories in New York City and is best known as a trusted, consistent and caring voice of Long Island's concerns.</h4>
 					<br/>
 					<p>Use the navigation above to scroll to different page sections. You can also jump right to specific sections with the buttons below:</p>
 					<p>
@@ -86,53 +95,38 @@
 			<div class="col-lg-9">
 				<div id="bio" class="page-section">
 					<h2>Bio</h2>
-					<p class="caption">Carolyn Gusoff's reporting over the  last three decades includes some of the biggest New York stories of our time: the terror attacks of 9-11, the NYC transit strike, the blackout and the massacre on the Long Island Railroad.  More recently, she reported tirelessly on the devastation wrecked by Hurricane Sandy, the tragic July 4th Oyster Bay boat capsizing, the "Occupy Wall Street" protests, the Long Island drug store massacre, the "Ground Zero" Mosque controversy and the "friendly fire" shooting death of a Hofstra University student. She was one of  the first reporters on the scene at  three commercial jetliner crashes  including Avianca Flight 52, TWA Flight 800 and American Airlines Flight 587. During the Blizzard of '96, Gusoff reported for 36 hours straight on the historic storm's toll and has been in the thick of nearly every major weather event  to strike the New York area since, including the 2013 Blizzard which buried Suffolk County in three feet of snow.</p>
-					<p class="caption">Gusoff moved to NBC  from News 12 Long Island where she was credited for in-depth  coverage of national stories such as the kidnapping of Katie Beers, the Tankleff murders and the Amy Fisher/Joey Buttafuoco scandal. She covered the police/crime beat, courts, the United Nations during the Persian Gulf conflict, and national political conventions. She also worked as primary fill-in anchor for the nation’s first 24-hour regional news network. Her broadcasting career began as anchor and reporter for the ABC affiliate,  WEVU-TV,  in Fort Myers, Florida. </p>
-					<p class="caption">Carolyn has written for the New York Times, Newsday, and is a frequent  opinion page contributor and Internet blogger. She has survived cancer and working motherhood (so far) and speaks publicly with passion and humor about both challenges. Her collaboration with Katie Beers on Buried Memories earned her the distinction as a New York Times best-selling author. The book has also been #1 in Amazon e-book sales for True Crime and Motivational Memoir.</p>
+					<p class="caption">Carolyn is currently working as an on-air reporter at <b>WCBS-TV</b> in New York City covering the Long Island beat. She came to CBS2 in 2012 after three years at <b>Fox5 WNYW</b> where she often covered the lead story of the day on <b>Good Day New York</b>. Prior to that, she was with <b>WNBC</b> for 15 years. In addition to her reporting role as Long Island Bureau Chief, she co-anchored the station’s top-rated Saturday and Sunday morning program <b>Weekend Today in New York</b> for five years.</p>
+					<p class="caption">Carolyn Gusoff's reporting over the last three decades includes some of the biggest New York stories of our time: the terror attacks of 9/11, the NYC transit strike, the blackout and the massacre on the Long Island Railroad.  More recently, she reported tirelessly on the devastation wrecked by Hurricane Sandy, the tragic July 4th Oyster Bay boat capsizing, the "Occupy Wall Street" protests, the Long Island drug store massacre, the "Ground Zero" Mosque controversy and the "friendly fire" shooting death of a Hofstra University student. She was one of  the first reporters on the scene at  three commercial jetliner crashes  including Avianca Flight 52, TWA Flight 800 and American Airlines Flight 587. During the Blizzard of '96, Gusoff reported for 36 hours straight on the historic storm's toll and has been in the thick of nearly every major weather event  to strike the New York area since, including the 2013 Blizzard which buried Suffolk County in three feet of snow.</p>
+					<p class="caption">Gusoff moved to NBC from <b>News 12</b> Long Island where she was credited for in-depth  coverage of national stories such as the kidnapping of Katie Beers, the Tankleff murders and the Amy Fisher/Joey Buttafuoco scandal. She covered the police/crime beat, courts, the United Nations during the Persian Gulf conflict, and national political conventions. She also worked as primary fill-in anchor for the nation’s first 24-hour regional news network. Her broadcasting career began as anchor and reporter for the ABC affiliate,  <b>WEVU-TV</b>, in Fort Myers, Florida. </p>
+					<p class="caption">Carolyn has written for the <b>New York Times</b>, <b>Newsday</b>, and is a frequent  opinion page contributor and Internet blogger. She has survived cancer and working motherhood (so far) and speaks publicly with passion and humor about both challenges. Her collaboration with Katie Beers on <b><i>Buried Memories</i></b> earned her the distinction as a New York Times best-selling author. The book has also been #1 in Amazon e-book sales for True Crime and Motivational Memoir and has topped the best seller lists in the UK published by Virgin Books/Random House entitled <i>Help Me<i>.</p>
+					<p class="caption">Gusoff holds a Master of Science  Degree in Journalism from Columbia University and a Bachelor of Arts Degree in Government and English from Cornell University, where she was Editor-in Chief of The Cornellian and a U.S.Congressional intern for then Senator Joe Biden and U.S Senator Alfonse D'Amato.</p>
+					<p class="caption">She is currently a Cornell Alumni Admissions Ambassador and devotes much of her time in leadership roles to charitable causes and local community organizations. She has emcee'ed  events for  The American Heart Association, The American Red Cross, The American Cancer Society , The Princess Grace Foundation, Northshore University Hospital, The Marcum Workplace Challenge and The Association of Fundraising Professionals, to name just a few. Carolyn is a recent recipient of  the Public Relations Professionals of Long Island’s Outstanding Media Member Award. </p>
 					<p class="caption">Gusoff was born in New York City and lives in Nassau County with her husband and their two children. </p>
 				</div>
 				<!--/#bio-->
 
 				<div id="awards" class="page-section">
-						<h2>Awards</h2>
-						<p class="caption">Her many honors include three New York  Emmy Awards and fourteen New York Emmy nominations. Most recently, she was part of the winning team that earned WCBS an Emmy for its coverage of Superstorm Sandy. In  2004, Gusoff  was awarded a New York Emmy Award for On-Camera Performance/General Assignment Reporting for the Mepham Hazing Scandal. </p>
-						<p class="caption">Gusoff  won the 2015 FOLIO award for  Best Spot News Report for her coverage of Long Island flash floods and  four Fair Media Council 2014 Folio Awards in the categories of Health, Science, Environment and Coastal News. She was awarded five 2013 FOLIO awards for her continuing coverage of Superstorm Sandy and in the categories of  "Tax Accountability News," "Energy News," "Affordable Housing News," and "Health Reporting."  She has  garnered  dozens of Long Island Fair Media Council FOLIO awards in categories ranging from "Best Feature" to  "Best Blog," “Enterprise Reporting” and “Investigative Journalism,”  and seven first-place Society of Professional Journalists/Press Club of Long Island awards. Carolyn has also been recognized by The American Women in Radio and Television, The Associated Press/New York Spot News Award  and  with the  United Press International/New York Broadcast Award.</p>
+					<h2>Awards</h2>
+					<p class="caption">Her many honors include three New York  Emmy Awards and fourteen New York Emmy nominations. Most recently, she was part of the winning team that earned WCBS an Emmy for its coverage of Superstorm Sandy. In  2004, Gusoff  was awarded a New York Emmy Award for On-Camera Performance/General Assignment Reporting for the Mepham Hazing Scandal. </p>
+					<p class="caption">Gusoff  won the 2015 FOLIO award for  Best Spot News Report for her coverage of Long Island flash floods and  four Fair Media Council 2014 Folio Awards in the categories of Health, Science, Environment and Coastal News. She was awarded five 2013 FOLIO awards for her continuing coverage of Superstorm Sandy and in the categories of  "Tax Accountability News," "Energy News," "Affordable Housing News," and "Health Reporting."  She has  garnered  dozens of Long Island Fair Media Council FOLIO awards in categories ranging from "Best Feature" to  "Best Blog," “Enterprise Reporting” and &#34Investigative Journalism,&#34  and seven first-place Society of Professional Journalists/Press Club of Long Island awards. Carolyn has also been recognized by The American Women in Radio and Television, The Associated Press/New York Spot News Award  and  with the  United Press International/New York Broadcast Award.</p>
 				</div>
-				<!--/#antarctica-->
 
 				<div id="books" class="page-section">
-						<h2>Asia</h2>
-						<p class="caption">Asia is the world's largest and most populous continent, located primarily in the eastern and northern hemispheres. It covers 8.7% of the Earth's total surface area and comprises 30% of its land area. With approximately 4.3 billion people, it hosts 60% of the world's current human population. Asia has a high growth rate in the modern era. For instance, during the 20th century, Asia's population nearly quadrupled.</p>
-						<p class="caption">Given its size and diversity, Asia - a toponym dating back to classical antiquity - "is more a cultural concept" incorporating diverse regions and peoples than a homogeneous physical entity. Asia differs very widely among and within its regions with regard to ethnic groups, cultures, environments, economics, historical ties and government systems.<br/><a href="#" class="scroll-top back-to-top">&uarr;</a></p>
+					<h2>Books</h2>
+					<p class="caption">Order Carolyn's book, <a href="http://www.barnesandnoble.com/w/buried-memories-katie-beers/1120800282?ean=9780825307782">Buried Memories</a></p>
+					<img id="book_cover" src="./images/book_cover.jpg">
+
 				</div>
-				<!--/#asia-->
 
 				<div id="social" class="page-section">
-						<h2>Australia</h2>
-						<p class="caption">A highly developed country and one of the wealthiest, Australia is the world's 12th-largest economy and has the world's fifth-highest per capita income. Australia's military expenditure is the world's 13th-largest. With the second-highest human development index globally, Australia ranks highly in many international comparisons of national performance, such as quality of life, health, education, economic freedom, and the protection of civil liberties and political rights. Australia is a member of the G20, OECD, WTO, APEC, UN, Commonwealth of Nations, ANZUS, and the Pacific Islands Forum.<br/><a href="#" class="scroll-top back-to-top">&uarr;</a></p>
+					<h2>Social</h2>
+					<div class="fb-page" data-href="https://www.facebook.com/cgusoff" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/cgusoff"><a href="https://www.facebook.com/cgusoff">Carolyn Gusoff</a></blockquote></div></div>
 				</div>
-				<!--/#australia-->
 
 				<div id="contact" class="page-section">
-						<h2>Europe</h2>
-						<p class="caption">Europe is the world's second-smallest continent by surface area, covering about 10,180,000 square kilometres (3,930,000 sq mi) or 2% of the Earth's surface and about 6.8% of its land area. Of Europe's approximately 50 countries, Russia is by far the largest by both area and population, taking up 40% of the continent (although the country has territory in both Europe and Asia), while Vatican City is the smallest.</p>
-						<p class="caption">Europe, in particular Ancient Greece and Ancient Rome, is the birthplace of Western culture.[4] It played a predominant role in global affairs from the 15th century onwards, especially after the beginning of colonialism. Between the 16th and 20th centuries, European nations controlled at various times the Americas, most of Africa, Oceania, and large portions of Asia.<br/><a href="#" class="scroll-top back-to-top">&uarr;</a></p>
+						<h2>Contact</h2>
+						
 				</div>
-				<!--/#europe-->
-
-				<div id="north-america" class="page-section">
-						<h2>North America</h2>
-						<p class="caption">North America is a continent wholly within the Northern Hemisphere and almost wholly within the Western Hemisphere. It is also considered a northern subcontinent of the Americas. It is bordered to the north by the Arctic Ocean, to the east by the Atlantic Ocean, to the west and south by the Pacific Ocean, and to the southeast by South America and the Caribbean Sea.<br/><a href="#" class="scroll-top back-to-top">&uarr;</a></p>
-				</div>
-				<!--/#north-america-->
-
-				<div id="south-america" class="page-section">
-						<h2>South America</h2>
-						<p class="caption">South America has an area of 17,840,000 square kilometers (6,890,000 sq mi). Its population as of 2005 has been estimated at more than 371,090,000. South America ranks fourth in area (after Asia, Africa, and North America) and fifth in population (after Asia, Africa, Europe, and North America).</p>
-						<p class="caption">Most of the population lives near the western or eastern coasts of the continent while the interior and the far south are sparsely populated. The geography of western South America is dominated by the Andes mountains; in contrast, the eastern part contains both highland regions and large river basins such as the Amazon, Paraná and Orinoco. Most of the continent lies in the tropics.<br/><a href="#" class="scroll-top back-to-top">&uarr;</a></p>
-				</div>
-				<!--/#north-america-->
-				<!--/.page-section-->
 			</div>
 			<!--/.col-lg-8-->
 			<div class="col-lg-3 col-lg-offset-7 twitter-sidebar">
