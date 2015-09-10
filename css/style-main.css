@@ -1,0 +1,118 @@
+/* 
+ * Name:         style-main.css
+ * Author:       Graham Turk
+ * Date:         06/28/15
+ * Description:  CSS style for carolyngusoff.com
+*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+}
+.header {
+	position: fixed;
+	width: 100%;
+	background: #222;
+	z-index: 10;
+}
+.header .navbar-brand {
+	font-weight: 900;
+}
+.header .navbar {
+	margin: 0;
+	border: none;
+}
+.page-section {
+	width: 100%;
+	min-height: 800px;
+	padding: 50px 0;
+}
+.page-section h1 {
+	font-size: 4em;
+	margin: 50px 0;
+}
+.page-section h1 span {
+	font-weight: 200;
+}
+.page-section h2 {
+	font-size: 3em;
+	font-weight: 900;
+	color: #553344;
+	margin: 0 0 30px;
+	text-shadow: 2px 2px 2px #000;
+}
+.page-section p {
+	font-size: 1.2em;
+	font-weight: 200;
+	margin: 0 25% 20px 0;
+}
+.page-section p.lead {
+	font-size: 1.8em;
+}
+.page-section p.caption {
+	color: #000;
+}
+.page-section.intro {
+	min-height: 600px;
+}
+.btn {
+	font-weight: 200;
+}
+.btn-dark {
+	background: #444;
+	color: #fff;
+}
+.btn-dark:hover {
+	background: #000;
+}
+.btn-dark:visited {
+	color: #fff;
+}
+.twitter-sidebar {
+	margin-top: 50px;
+	position: absolute;
+}
+#twitter-inside.stick {
+	position: fixed;
+    top: 0;
+    z-index: 10000;
+    margin-top: 70px;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #553344;
+}
+a.nav-active {
+    color: #000;
+    font-weight: bold;
+}
+#faceshot {
+	margin-top: 60px;
+}
+
+
+hr {border-color: #ddd;}
+
+
+@media (min-width: 768px) {
+	.header .navbar-brand {
+		padding-left: 0;
+	}
+	.navbar-nav {
+		float: right;
+	}
+}
+@media (max-width: 480px) {
+	.page-section h1 {
+		font-size: 3em;
+	}
+	.page-section h2 {
+		font-size: 2em;
+	}
+	.page-section p {
+		font-size: 1em;
+		margin: 0 0 20px;
+	}
+}

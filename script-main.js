@@ -22,6 +22,7 @@ $(document).ready(function() {
 		$('#main-nav').toggleClass("open");
 	});
 
+    // twitter sidebar
 	$(window).scroll(function(){
         var window_top = $(window).scrollTop() + 70; // the "12" should equal the margin-top value for nav.stick
         var div_top = $('#twitter-anchor').offset().top;
